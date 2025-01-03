@@ -101,53 +101,43 @@
 
 <!-- book section starts  -->
 
-<section class="book wow fadeInUp" data-wow-duration="4s" id="book" >
+<div id="book-popup" class="popup-container">
+    <section class="book wow fadeInUp" data-wow-duration="4s" id="book">
+        <i class="fas fa-times close-popup" id="close-book-popup"></i>
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+        <div class="row">
+            <!-- Image on the left -->
+            <div class="image" data-aos="fade-right" data-aos-offset="10" data-aos-duration="500">
+                <img src="images/book-img.svg" alt="Booking Image">
+            </div>
 
-    <h1 class="heading">
-        <span>b</span>
-        <span>o</span>
-        <span>o</span>
-        <span>k</span>
-        <span class="space"></span>
-        <span>n</span>
-        <span>o</span>
-        <span>w</span>
-    </h1>
-
-    <div class="row">
-
-        <div class="image " data-aos="fade-right"
-        data-aos="fade-right"
-        data-aos-offset="10"
-        data-aos-duration="500">
-            <img src="images/book-img.svg" alt="">
+            <!-- Form with contact information -->
+            <form action="" data-aos="fade-up" data-aos-offset="40" data-aos-duration="600">
+                <div class="inputBox">
+                    <h2>Organizer's Name</h2>
+                    <h3>Iris Njoroge</h3>
+                </div>
+                <div class="inputBox">
+                    <h2>Organizer's Email Address</h2>
+                    <h3>Email123@gmail.com</h3>
+                </div>
+                <div class="inputBox">
+                    <h2>Organizer's Phone Number</h2>
+                    <h3>+254 12345678</h3>
+                </div>
+            </form>
         </div>
-
-        <form action="" data-aos="fade-up"data-aos-offset="40"
-        data-aos-offset="10"
-        data-aos-duration="600">
-            <div class="inputBox">
-                <h3>where to</h3>
-                <input type="text" placeholder="place name">
-            </div>
-            <div class="inputBox">
-                <h3>how many</h3>
-                <input type="number" placeholder="number of guests">
-            </div>
-            <div class="inputBox">
-                <h3>arrivals</h3>
-                <input type="date">
-            </div>
-            <div class="inputBox">
-                <h3>leaving</h3>
-                <input type="date">
-            </div>
-            <input type="submit" class="btn btn-submit" value="book now">
-        </form>
-
-    </div>
-
-</section>
+    </section>
+</div>
 
 <!-- book section ends -->
 
@@ -169,9 +159,9 @@
     <div class="box-container owl-carousel first_carousel">
 
         <div class="box wow fadeInUp" data-wow-duration="2s">
-            <a href="images/p-1.jpg" data-lightbox="image-1" data-title="Mumbai"><img src="images/p-1.jpg" alt="image"></a>
+            <a href="https://raftinginkenya.com/wp-content/uploads/2020/08/camping-rapids-camp.jpg" data-lightbox="image-1" ><img src="https://raftinginkenya.com/wp-content/uploads/2020/08/camping-rapids-camp.jpg" alt="image"></a>
             <div class="content">
-                <h3> <i class="fas fa-map-marker-alt"></i> mumbai </h3>
+                <h3> <i class="fas fa-map-marker-alt"></i> Camping </h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -180,15 +170,15 @@
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
                 </div>
-                <div class="price"> $90.00 <span>$120.00</span> </div>
-                <a href="#" class="btn">book now</a>
+                <div class="price"> 9000.00 <span> 12000.00</span> </div>
+                <a href="#book" class="btn book-now-btn">Book Now</a>
             </div>
         </div>
 
         <div class="box wow fadeInUp" data-wow-duration="2s">
-            <a href="images/p-2.jpg" data-lightbox="image-1" data-title="Hawaii"><img src="images/p-2.jpg" alt="image"></a>
+            <a href="https://zazuventure.com/wp-content/uploads/2020/08/4328101038_5ed584481f.jpg" data-lightbox="image-1" ><img src="https://zazuventure.com/wp-content/uploads/2020/08/4328101038_5ed584481f.jpg" alt="image"></a>
             <div class="content">
-                <h3> <i class="fas fa-map-marker-alt"></i> hawaii </h3>
+                <h3> <i class="fas fa-map-marker-alt"></i> Hot-Air Ballon Ride </h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -197,15 +187,15 @@
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
                 </div>
-                <div class="price"> $70.00 <span>$100.00</span> </div>
-                <a href="#" class="btn">book now</a>
+                <div class="price"> 70000.00 <span>100000.00</span> </div>
+                <a href="#book" class="btn book-now-btn">Book Now</a>
             </div>
         </div>
 
         <div class="box wow fadeInUp" data-wow-duration="2s">
-            <a href="images/p-3.jpg" data-lightbox="image-3" data-title="Sydney"><img src="images/p-3.jpg" alt="image"></a>
+            <a href="https://media.istockphoto.com/id/467754933/photo/sunset.jpg?s=612x612&w=0&k=20&c=eU99zagDWhJd3U4kzQoT-CJYZT9Qt5Z30t0k98GXtg8=" data-lightbox="image-3"><img src="https://media.istockphoto.com/id/467754933/photo/sunset.jpg?s=612x612&w=0&k=20&c=eU99zagDWhJd3U4kzQoT-CJYZT9Qt5Z30t0k98GXtg8=" alt="image"></a>
             <div class="content">
-                <h3> <i class="fas fa-map-marker-alt"></i> sydney </h3>
+                <h3> <i class="fas fa-map-marker-alt"></i> Sunset Watching on top of Mt.Kenya </h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -214,15 +204,15 @@
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
                 </div>
-                <div class="price"> $130.00 <span>$150.00</span> </div>
-                <a href="#" class="btn">book now</a>
+                <div class="price"> 130000.00 <span> 150000.00</span> </div>
+                <a href="#book" class="btn book-now-btn">Book Now</a>
             </div>
         </div>
 
         <div class="box wow fadeInUp" data-wow-duration="2s">
-            <a href="images/p-4.jpg" data-lightbox="image-4" data-title="My caption"><img src="images/p-4.jpg" alt="image"></a>
+            <a href="https://avgtravels.com/au/wp-content/uploads/sites/4/flock-of-flamingos-in-lake-nakuru.jpg" data-lightbox="image-4"><img src="https://avgtravels.com/au/wp-content/uploads/sites/4/flock-of-flamingos-in-lake-nakuru.jpg" alt="image"></a>
             <div class="content">
-                <h3> <i class="fas fa-map-marker-alt"></i> paris </h3>
+                <h3> <i class="fas fa-map-marker-alt"></i> Flamingo Watching </h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -231,19 +221,19 @@
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
                 </div>
-                <div class="price"> $50.00 <span>$90.00</span> </div>
-                <a href="#" class="btn">book now</a>
+                <div class="price"> 5000.00 <span>9000.00</span> </div>
+                <a href="#book" class="btn book-now-btn">Book Now</a>
             </div>
         </div>
 
     </div>
 
-    <!-- section item start  -->
+
     <div class="box-container secound_carousel owl-carousel ">
         <div class="box wow fadeInUp" data-wow-duration="2s">
-            <a href="images/p-5.jpg" data-lightbox="image-1" data-title="Singapur"><img src="images/p-2.jpg" alt="image"></a>
+            <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF3KivpdNNl2WGVRqqD7fJ46qjvvwTTdbutQ&s" data-lightbox="image-1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF3KivpdNNl2WGVRqqD7fJ46qjvvwTTdbutQ&s" alt="image"></a>
             <div class="content">
-                <h3> <i class="fas fa-map-marker-alt"></i> Singapur </h3>
+                <h3> <i class="fas fa-map-marker-alt"></i> Masaai Cultural Museum </h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -252,15 +242,15 @@
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
                 </div>
-                <div class="price"> $70.00 <span>$100.00</span> </div>
-                <a href="#" class="btn">book now</a>
+                <div class="price"> 70000.00 <span>10000.00</span> </div>
+                <a href="#book" class="btn book-now-btn">Book Now</a>
             </div>
         </div>
 
         <div class="box wow fadeInUp" data-wow-duration="2s">
-            <a href="images/p-6.jpg" data-lightbox="image-3" data-title="America"><img src="images/p-3.jpg" alt="image"></a>
+            <a href="https://www.africanmeccasafaris.com/wp-content/uploads/mountkenyaclimb2.jpg" data-lightbox="image-3"><img src="https://www.africanmeccasafaris.com/wp-content/uploads/mountkenyaclimb2.jpg" alt="image"></a>
             <div class="content">
-                <h3> <i class="fas fa-map-marker-alt"></i> America </h3>
+                <h3> <i class="fas fa-map-marker-alt"></i> Hiking on Mt.Kenya </h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -269,15 +259,15 @@
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
                 </div>
-                <div class="price"> $130.00 <span>$150.00</span> </div>
-                <a href="#" class="btn">book now</a>
+                <div class="price"> 13000.00 <span>15000.00</span> </div>
+                <a href="#book" class="btn book-now-btn">Book Now</a>
             </div>
         </div>
 
         <div class="box wow fadeInUp" data-wow-duration="2s">
-            <a href="images/p-2.jpg" data-lightbox="image-4" data-title="Paris"><img src="images/p-4.jpg" alt="image"></a>
+            <a href="https://www.africanmeccasafaris.com/wp-content/uploads/basecampmasaimara2.jpg" data-lightbox="image-4"><img src="https://www.africanmeccasafaris.com/wp-content/uploads/basecampmasaimara2.jpg" alt="image"></a>
             <div class="content">
-                <h3> <i class="fas fa-map-marker-alt"></i> paris </h3>
+                <h3> <i class="fas fa-map-marker-alt"></i> Game Drive in Masaai Mara </h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -286,8 +276,8 @@
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
                 </div>
-                <div class="price"> $50.00 <span>$90.00</span> </div>
-                <a href="#" class="btn">book now</a>
+                <div class="price"> 50000.00 <span>90000.00</span> </div>
+                <a href="#book" class="btn book-now-btn">Book Now</a>
             </div>
         </div>
     </div>
@@ -296,22 +286,6 @@
 
 <!-- packages section ends -->
 
-
-<!-- brand section  -->
-<section class="brand-container">
-
-    <div class="swiper-container brand-slider">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
-        </div>
-    </div>
-
-</section>
 
 
 <!-- footer section  -->
@@ -326,27 +300,21 @@
         </div>
         <div class="box">
             <h3>branch locations</h3>
-            <a href="#">india</a>
-            <a href="#">USA</a>
-            <a href="#">japan</a>
-            <a href="#">france</a>
+            <a href="#">Nairobi</a>
+            <a href="#">Mombasa</a>
+            <a href="#">Nakuru</a>
         </div>
         <div class="box">
             <h3>quick links</h3>
-            <a href="#">home</a>
-            <a href="#">book</a>
-            <a href="#">packages</a>
-            <a href="#">services</a>
-            <a href="#">gallery</a>
-            <a href="#">review</a>
-            <a href="#">contact</a>
+            <a href="index.html">home</a>
+            <a href="blog.html">blog</a>
+            <a href="about.html">about</a>
         </div>
         <div class="box">
             <h3>follow us</h3>
-            <a href="https://web.facebook.com/mamun3399">facebook</a>
+            <a href="#">facebook</a>
             <a href="#">instagram</a>
-            <a href="https://twitter.com/tmnewsbd24">twitter</a>
-            <a href="https://www.linkedin.com/in/md-mamun-hossain-239451193/">linkedin</a>
+            <a href="#">twitter</a>
         </div>
 
     </div>
@@ -358,6 +326,33 @@
 <div id="totopscroller"></div>
 <!-- preloader  -->
 <div class="fakeLoader"></div>
+
+<script>
+// Get all "Book Now" buttons and the pop-up elements
+const bookNowBtns = document.querySelectorAll('.book-now-btn'); // Select all buttons with the class
+const bookPopup = document.getElementById('book-popup');
+const closeBookPopup = document.getElementById('close-book-popup');
+
+// Add click event to each "Book Now" button
+bookNowBtns.forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+        e.preventDefault(); // Prevent default anchor behavior
+        bookPopup.style.display = 'flex'; // Show the pop-up
+    });
+});
+
+// Hide the pop-up when the close button is clicked
+closeBookPopup.addEventListener('click', () => {
+    bookPopup.style.display = 'none'; // Hide the pop-up
+});
+
+// Optional: Hide the pop-up when clicking outside the form
+bookPopup.addEventListener('click', (e) => {
+    if (e.target === bookPopup) {
+        bookPopup.style.display = 'none'; // Hide the pop-up
+    }
+});
+</script>
 
 
 <!-- jaquery cdn  -->
@@ -472,6 +467,9 @@ AOS.init();
       // The crossOrigin attribute to use for the affected image. 
       crossOrigin: ''
     });
+
+
+    
    
 </script>
 
